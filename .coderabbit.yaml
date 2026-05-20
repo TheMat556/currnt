@@ -6,8 +6,19 @@ reviews:
   poem: false
   review_status: true
   collapse_walkthrough: true
+  auto_review:
+    enabled: true
+    drafts: false          # won't review draft PRs
+    base_branches:
+      - main
+      - develop
   path_instructions:
     - path: "**/*.{ts,tsx}"
       instructions: "Follow Next.js and React best practices. Use TypeScript strictly."
     - path: "components/ui/**"
       instructions: "This is shadcn/ui with Base UI. Do not suggest Radix or asChild patterns."
+path_filters:
+  - "!**/bun.lock"
+  - "!**/.next/**"
+  - "!**/node_modules/**"
+  - "!**/*.generated.ts"

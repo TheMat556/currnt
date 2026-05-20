@@ -7,7 +7,7 @@
 	},
 	"files": {
 		"includes": ["**", "!lib", "!components/ui"],
-		"ignoreUnknown": false
+		"ignoreUnknown": true
 	},
 	"formatter": {
 		"enabled": true,
