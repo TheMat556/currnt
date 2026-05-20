@@ -1,1 +1,1 @@
-bun run check --staged .
+bun run check --staged . && bun run secrets
