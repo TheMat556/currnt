@@ -120,7 +120,9 @@ Contributions are always welcome. Here's how to get started:
 ### Prerequisites
 
 - [Bun](https://bun.sh/) v1.x (install via `curl -fsSL https://bun.sh/install | bash`)
-- Node.js 20+ (Bun includes Node.js compatibility)
+- Node.js 20+ (Bun includes Node.js compatibility, see .nvmrc)
+- [Supabase CLI](https://supabase.com/docs/guides/local-development) — `brew install supabase/tap/supabase` or `curl -fsSL https://supabase.com/install | sh`
+- [Docker Desktop](https://docs.docker.com/get-docker/) (required for `supabase start`)
 
 ### Installation
 
@@ -138,6 +140,37 @@ Contributions are always welcome. Here's how to get started:
    ```bash
    cp .env.example .env.local
    ```
+
+### Supabase Local Development
+
+This project uses [Supabase](https://supabase.com/) for authentication and database. For local development, you can run a full Supabase stack on your machine.
+
+1. Install the [Supabase CLI](https://supabase.com/docs/guides/local-development):
+   ```bash
+   # macOS
+   brew install supabase/tap/supabase
+
+   # Linux / other
+   curl -fsSL https://supabase.com/install | sh
+   ```
+
+2. Start the local Supabase stack:
+   ```bash
+   supabase start
+   ```
+   This spins up Postgres, GoTrue (Auth), Realtime, Storage, and a local SMTP email UI on Docker.
+
+3. Update `.env.local` with the local Supabase credentials printed by `supabase start`:
+   ```bash
+   NEXT_PUBLIC_SUPABASE_URL=http://localhost:54321
+   NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=eyJhbGciOiJIUzI1NiIs...
+   ```
+
+4. (Optional) Link to your hosted Supabase project for running migrations:
+   ```bash
+   supabase link --project-ref YOUR_PROJECT_REF
+   ```
+   You can find your project ref in your Supabase dashboard URL: `https://supabase.com/dashboard/project/<ref>`.
 
 ### Environment Variables
 
