@@ -1,0 +1,22 @@
+{
+	"entry": [
+		"app/**/layout.tsx",
+		"app/**/page.tsx",
+		"app/**/route.ts",
+		"lib/**/*.ts"
+	],
+	"project": ["**/*.{ts,tsx}"],
+	"ignoreDependencies": [
+		"@secretlint/secretlint-rule-preset-recommend",
+		"tailwindcss",
+		"tw-animate-css",
+		"shadcn",
+		"postcss-load-config",
+		"resend",
+		"stripe",
+		"zod",
+		"zustand",
+		"supabase"
+	],
+	"ignore": ["components/ui/**"]
+}
