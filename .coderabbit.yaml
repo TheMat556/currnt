@@ -8,7 +8,7 @@ reviews:
   collapse_walkthrough: true
   auto_review:
     enabled: true
-    drafts: false          # won't review draft PRs
+    drafts: false # won't review draft PRs
     base_branches:
       - main
       - develop
