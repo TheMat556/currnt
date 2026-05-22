@@ -64,7 +64,7 @@ By participating, you are expected to uphold this code.
 
 #### How Do I Submit a Good Bug Report?
 
-> You must never report security related issues, vulnerabilities or bugs including sensitive information to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by email to [INSERT EMAIL].
+> You must never report security related issues, vulnerabilities or bugs including sensitive information to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by email to matthias.hader00@gmail.com.
 
 We use GitHub issues to track bugs and errors. If you run into an issue with the project:
 
@@ -128,7 +128,7 @@ Contributions are always welcome. Here's how to get started:
 
 1. Fork this repository.
 2. Clone your fork.
-3. Create a new branch from `develop` for your change:
+3. Create a new branch from `main` for your change:
    ```bash
    git checkout -b feat/my-feature
    ```
@@ -197,7 +197,7 @@ This project uses [Supabase](https://supabase.com/) for authentication and datab
 
 ## Project Structure
 
-```
+```text
 app/          — Next.js App Router pages and API routes
 components/   — React components (ui/ = shadcn/Base UI primitives)
 lib/          — Utility functions and Supabase clients

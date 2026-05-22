@@ -34,13 +34,13 @@ Ab dem oben genannten **Änderungsdatum** wird die lizenzierte Arbeit automatisc
 
 ## Haftungsausschluss
 
-DIE LIZENZIERTE ARBEIT WIRD „WIE BESEHEN" BEREITGESTELLT. DER LIZENZGEBER SCHLIESST JEGLICHE GEWÄHRLEISTUNG AUS, OB AUSDRÜCKLICH ODER STILLSCHWEIGEND, EINSCHLIESSLICH (OHNE EINSCHRÄNKUNG) DER GEWÄHRLEISTUNG DER MARKTGÄNGIGKEIT, DER EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND DER NICHTVERLETZUNG VON RECHTEN DRITTER. WEDER DER LIZENZGEBER NOCH DER URHEBER HAFTET GEGENÜBER IHNEN FÜR SCHÄDEN JEGLICHER ART.
+DIE LIZENZIERTE ARBEIT WIRD "WIE BESEHEN" BEREITGESTELLT. DER LIZENZGEBER SCHLIESST JEGLICHE GEWÄHRLEISTUNG AUS, OB AUSDRÜCKLICH ODER STILLSCHWEIGEND, EINSCHLIESSLICH (OHNE EINSCHRÄNKUNG) DER GEWÄHRLEISTUNG DER MARKTGÄNGIGKEIT, DER EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND DER NICHTVERLETZUNG VON RECHTEN DRITTER. WEDER DER LIZENZGEBER NOCH DER URHEBER HAFTET GEGENÜBER IHNEN FÜR SCHÄDEN JEGLICHER ART.
 
 ---
 
 ## MIT License (ab Änderungsdatum gültig)
 
-Copyright (c) [JAHR] [DEIN NAME / DEINE ORGANISATION]
+Copyright (c) 2026 [Matthias Hader / currnt]
 
 Hiermit wird unentgeltlich jeder Person, die eine Kopie der Software und der zugehörigen Dokumentationsdateien erhält, die Erlaubnis erteilt, sie uneingeschränkt zu nutzen, einschließlich und ohne Einschränkung der Rechte, sie zu verwenden, zu kopieren, zu verändern, zusammenzuführen, zu veröffentlichen, zu verbreiten, zu unterlizenzieren und/oder zu verkaufen.
 
