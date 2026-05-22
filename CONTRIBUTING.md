@@ -64,7 +64,7 @@ By participating, you are expected to uphold this code.
 
 #### How Do I Submit a Good Bug Report?
 
-> You must never report security related issues, vulnerabilities or bugs including sensitive information to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by email to matthias.hader00@gmail.com.
+> You must never report security related issues, vulnerabilities, or bugs including sensitive information to the issue tracker or elsewhere in public. Instead, sensitive bugs must be sent by email to matthias.hader00@gmail.com.
 
 We use GitHub issues to track bugs and errors. If you run into an issue with the project:
 
@@ -283,7 +283,7 @@ This starts the dev server, waits for port 3000, then runs Cypress.
    bun run check && bun run typecheck && bun run knip && bun run test:run
    ```
 2. Ensure your commit messages follow [Conventional Commits](#commit-convention).
-3. Create a pull request targeting the `develop` branch.
+3. Create a pull request targeting the `main` branch.
 4. Fill out the provided Pull Request template to the best of your ability.
 5. All CI checks must pass before merge.
 

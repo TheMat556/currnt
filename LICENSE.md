@@ -40,7 +40,7 @@ DIE LIZENZIERTE ARBEIT WIRD "WIE BESEHEN" BEREITGESTELLT. DER LIZENZGEBER SCHLIE
 
 ## MIT License (ab Änderungsdatum gültig)
 
-Copyright (c) 2026 [Matthias Hader / currnt]
+Copyright (c) 2026 Matthias Hader / currnt
 
 Hiermit wird unentgeltlich jeder Person, die eine Kopie der Software und der zugehörigen Dokumentationsdateien erhält, die Erlaubnis erteilt, sie uneingeschränkt zu nutzen, einschließlich und ohne Einschränkung der Rechte, sie zu verwenden, zu kopieren, zu verändern, zusammenzuführen, zu veröffentlichen, zu verbreiten, zu unterlizenzieren und/oder zu verkaufen.
 
