@@ -15,7 +15,8 @@
 		"resend",
 		"stripe",
 		"zod",
-		"zustand"
+		"zustand",
+		"supabase"
 	],
 	"ignore": ["components/ui/**"]
 }
